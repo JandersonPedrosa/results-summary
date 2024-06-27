@@ -20,3 +20,151 @@
     --Light-lavender: hsl(241, 100%, 89%);
     --Dark-gray-blue: hsl(224, 30%, 27%);
 }
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    max-width: 46rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    box-shadow: 30px 30px 40px hsla(241, 100%, 89%, 0.29);;
+}
+
+.result{
+    width: 23rem;
+    background: linear-gradient(to top, var(--Light-royal-blue-background), var(--Light-slate-blue-background));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.813rem 3.75rem 3.75rem 3.75rem;
+    border-radius: 1.5rem;
+}
+
+.your-result{
+    color: var(--Light-lavender);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.result-number{
+    margin: 2rem 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 12.5rem;
+    height: 12.5rem;
+    background: linear-gradient(to bottom, var(--Violet-blue-circle), var(--Persian-blue-circle));
+    border-radius: 50%;
+}
+
+.number-one{
+    color: var(--White);
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.number-two{
+    color: hsla(241, 100%, 89%, 0.615);
+}
+
+.great{
+    color: var(--White);
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+}
+
+.text{
+    color: hsla(241, 100%, 89%, 0.841);
+    text-align: center;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    padding: 48px 40px 48px 40px;
+}
+
+.text-summary{
+    margin-bottom: 20px;
+    color: var(--Dark-gray-blue);
+    font-size: 24px;
+}
+
+.summary-container{
+    width: 18rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF6F5;
+    padding: 0px 15px;
+    border-radius: 0.8rem;
+    margin-bottom: 15px;
+}
+
+.summary-container.yellow{
+    background-color: #FFFBF2;
+}
+
+.summary-container.green{
+    background-color: #F2FBFA;
+}
+
+.summary-container.blue{
+    background-color: #F3F3FD;
+}
+
+.icon-text{
+    display: flex;
+}
+
+.img-icon{
+    margin-right: 15px;
+}
+
+.span-text-main{
+    color: var(--Light-red);
+    font-weight: 600;
+}
+
+.span-text-main.yellow{
+    color: var(--Orangey-yellow);
+}
+
+.span-text-main.green{
+    color: var(--Green-teal);
+}
+
+.span-text-main.blue{
+    color: var(--Cobalt-blue);
+}
+
+.number100{
+    color: gray;
+    font-weight: 500;    
+}
+
+.button{
+    background-color: var(--Dark-gray-blue);
+    color: #fff;
+    height: 55px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: linear-gradient(to top, var(--Light-royal-blue-background), var(--Light-slate-blue-background));
+}
